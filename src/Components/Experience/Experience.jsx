@@ -15,7 +15,7 @@ const Experience = () => {
   return (
     <div className="experience">
       {/* <h1>Experiences</h1> */}
-      <Link to="/experience/front-end-intern" >
+      <Link to="/experience" >
         <ExCard />
       </Link>
     </div>)

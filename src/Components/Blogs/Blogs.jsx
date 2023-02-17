@@ -1,16 +1,17 @@
 import React from "react";
 import "./Blogs.css";
-import { Link } from "react-router-dom";
+import Roadmap from '../../assets/img/download.jpeg'
 
 const BlogCard = () => {
   return (
-    <div className="blog-card">
-      <img src="" alt="" />
-      <h2>Roadmap to a Full-Stack Developer</h2>
-      <h3>Desc</h3>
-      <p>Date</p>
+    <a href="">
+      <div className="blog-card">
+        <img src={Roadmap} alt="" />
+        <h2>Roadmap to a Full-Stack Developer</h2>
+        <h3>Desc</h3>
 
-    </div>
+      </div>
+    </a>
   )
 }
 

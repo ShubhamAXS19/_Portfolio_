@@ -17,7 +17,7 @@ const Home = () => {
         <b>DevOps</b>. Along with my Undergrad studies, I work as a freelancer.
       </p>
       <ul>
-        <a href="">
+        <a href="sv773460@gmail.com">
           <li>
             <FiMail />
           </li>

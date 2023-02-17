@@ -10,29 +10,3 @@
 }
 
 
-.project-card{
-    margin-top: 8vh;
-    padding: 2vh 2vw;
-    border-radius: 1rem;
-    background: rgb(65, 66, 68);
-    width: 40vw;
-    border-radius: 1rem;
-
-    transition: ease-in 0.3s;
-}
-
-.project-card:hover{
-    transform: translateY(-20px);
-    background: black;
-}
-
-.project-card img{
-    padding-top: 2vh;
-    height: 40vh;
-    width: 100%;
-}
-
-   
-.project-card h2,h3,p{
-    color:   rgb(155, 156, 157);;
-}
