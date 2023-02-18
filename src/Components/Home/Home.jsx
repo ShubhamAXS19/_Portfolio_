@@ -1,5 +1,5 @@
 import React from "react";
-// import { FiMail } from "react-icons/fi";
+import { FiMail } from "react-icons/fi";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 import { HiOutlineDocumentText } from "react-icons/hi";
@@ -19,7 +19,7 @@ const Home = () => {
       <ul>
         <a href="sv773460@gmail.com">
           <li>
-            {/* <FiMail /> */}
+            <FiMail />
           </li>
         </a>
         <a href="https://www.linkedin.com/in/shubham-vishwakarma-j21/">
