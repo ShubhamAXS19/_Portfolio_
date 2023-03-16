@@ -35,3 +35,44 @@
 .blog-card h2,h3,p{
     color:   rgb(155, 156, 157);;
 }
+
+@media screen and (max-width:1000px){
+    .blog{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .blog a {
+        text-decoration: none;
+    }
+    
+    .blog-card{
+        margin-top: 4vh;
+        padding: 1vh 3vw;
+        border-radius: 1rem;
+        background: rgb(65, 66, 68);
+        width: 70vw;
+        border-radius: 1rem;
+    
+        transition: ease-in 0.3s;
+    }
+    
+    .blog-card:hover{
+        transform: translateY(-20px);
+        background: black;
+    }
+    
+    .blog-card img{
+        padding-top: 2vh;
+        height: 50%;
+        width: 100%;
+    }
+    
+       
+    .blog-card h2,h3,p{
+        color:   rgb(155, 156, 157);
+        font-size: 100%;
+    }
+}

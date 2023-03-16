@@ -4,8 +4,6 @@
     border-radius: 1rem;
     background: rgb(65, 66, 68);
     width: 40vw;
-    border-radius: 1rem;
-
     transition: ease-in 0.3s;
 }
 
@@ -17,11 +15,41 @@
 
 .project-card img{
     padding-top: 2vh;
-    height: 40vh;
+    height: 100%;
     width: 100%;
 }
 
    
 .project-card h2,h3,p{
     color:   rgb(155, 156, 157);;
+}
+
+
+@media screen and (max-width:1000px){
+    .project-card{
+        margin-top: 4vh;
+        padding: 1vh 2vw;
+        border-radius: 1rem;
+        background: rgb(65, 66, 68);
+        width: 50vw;
+        transition: ease-in 0.3s;
+    }
+    
+    .project-card:hover{
+        transform: translateY(-20px);
+        background: black;
+        cursor: pointer;
+    }
+    
+    .project-card img{
+        /* padding-top: 2vh; */
+        height: 70%;
+        width: 100%;
+    }
+    
+       
+    .project-card h2,h3,p{
+        color:   rgb(155, 156, 157);
+        font-size: 80%;
+    }
 }

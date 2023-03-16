@@ -10,3 +10,17 @@
 }
 
 
+@media screen and (max-width:1000px){
+    .project{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .project a {
+        text-decoration: none;
+    }
+       
+}
+

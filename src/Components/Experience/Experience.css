@@ -27,8 +27,49 @@
 
 .ex-card h1 {
  color: #fff;
+ /* font-size: 50%; */
 }
 
 .ex-card h2,h3{
   color:   rgb(155, 156, 157);
+}
+
+@media screen and (max-width:1000px){
+    .experience{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .experience a {
+        text-decoration: none;
+    }
+    
+    .ex-card{
+        margin-top: 8vh;
+        padding: 2vh 2vw;
+        border-radius: 1rem;
+        background: rgb(65, 66, 68);
+        width: 40vw;
+        transition: ease-in 0.3s;
+    }
+    
+    .ex-card:hover{
+        transform: translateY(-20px);
+        background: black;
+    }
+    
+    
+    .ex-card h1 {
+     color: #fff;
+     font-size: 100%;
+     font-weight: 500;
+    }
+    
+    .ex-card h2,h3{
+        font-weight: 500;
+      color:   rgb(155, 156, 157);
+      font-size: 50%;
+    }
 }
