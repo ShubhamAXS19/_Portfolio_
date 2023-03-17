@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { RxHamburgerMenu } from 'react-icons/rx'
+import { RxCross2 } from 'react-icons/rx'
 import { Link } from "react-router-dom";
 const Navbar = () => {
 
@@ -42,21 +43,24 @@ const Navbar = () => {
 
 
         {sidebarActive &&
-          (<ul className="nav-navi">
-            <Link to="/">
-              <li>Home</li>
-            </Link>
-            <Link to="/blogs">
-              {" "}
-              <li>Blog</li>
-            </Link>
-            <Link to="/projects">
-              <li>Projects</li>
-            </Link>
-            <Link to="/experience">
-              <li>Experience</li>
-            </Link>
-          </ul>)}
+          (
+
+            <ul className="nav-navi">
+              <Link to="/">
+                <li>Home</li>
+              </Link>
+              <Link to="/blogs">
+                {" "}
+                <li>Blog</li>
+              </Link>
+              <Link to="/projects">
+                <li>Projects</li>
+              </Link>
+              <Link to="/experience">
+                <li>Experience</li>
+              </Link>
+            </ul>
+          )}
       </div>
 
     </>

@@ -27,7 +27,6 @@
 
 .ex-card h1 {
  color: #fff;
- /* font-size: 50%; */
 }
 
 .ex-card h2,h3{
@@ -67,9 +66,16 @@
      font-weight: 500;
     }
     
-    .ex-card h2,h3{
+    .ex-card h2{
         font-weight: 500;
-      color:   rgb(155, 156, 157);
+      color: rgb(155, 156, 157);
       font-size: 50%;
+    }
+    
+    .ex-card h3{
+        font-weight: 500;
+      color: rgb(155, 156, 157);
+      font-size: 50%;
+
     }
 }

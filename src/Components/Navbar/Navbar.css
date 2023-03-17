@@ -55,6 +55,7 @@
 
 
 @media screen and (max-width:768px) {
+
   .navbar{
     display: none;
   }
@@ -82,8 +83,7 @@
 }
 
 .nav-navi{
-  display: flex;
-  align-items: center;
+  padding-left: 1vw;
   justify-content: center;
   flex-direction: column;
   width: 100%;
@@ -91,12 +91,13 @@
         position: fixed;
         top: 0;
         left: 0;
-        background-color: #21243e;
+        background-color:rgb(65, 66, 68); 
         transition: ease-in 0.5s;
         z-index: 20;
 }
 
-.nav-navi ul  li {
-  margin-bottom: 1vh;
+.nav-navi ul a li {
+  margin-bottom: 10vh;
 }
+
 }
