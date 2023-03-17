@@ -80,6 +80,65 @@ transition: ease-in 0.3s;
     .home ul {
         display: flex;
         flex-direction: row;
+        padding-left: 1vw;
+        margin-top: 7vh;
+    }
+    
+    .home ul li {
+    list-style: none;
+    }
+    
+    .home ul a {
+    color:rgb(65, 66, 68); 
+    transition: ease-in 0.3s;
+    }
+    
+    .home ul a:hover{
+        color: black;
+        transform: translateY(-20px);
+    }
+    
+    
+    .home ul a li svg{
+        width: 5vw;
+        height: 5vh;
+        padding: 0 2vw;
+    }
+}
+
+
+
+@media screen and (max-width:400px) {
+    .home{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 7vh;
+    }
+    
+    .home img{
+       height:15vh;
+       width: 40%;
+       border-radius: 50%;
+        
+    }
+    
+    .home h2{
+        font-size: 70%;
+        color:   rgb(155, 156, 157);
+    }
+    
+    .home p {
+        text-align: center;
+        font-size: 50%;
+        max-width: 50%;
+    }
+    
+    .home ul {
+        display: flex;
+        flex-direction: row;
+       padding-left: 1vw;
         margin-top: 7vh;
     }
     

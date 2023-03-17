@@ -44,6 +44,7 @@
 @media screen and (max-width:1400px) {
   .navbar{
     align-items: center;
+    
   }
   .nav--name{
     font-size: 180%;
@@ -62,6 +63,7 @@
 
 .navbar-mobile{
   display: block;
+  padding: 0 3vw ;
 }
 
 .nav--name{
