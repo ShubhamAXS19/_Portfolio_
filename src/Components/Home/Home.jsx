@@ -13,8 +13,8 @@ const Home = () => {
       <h2>Shubham Vishwakarma</h2>
       <p>
         Hi 👋, I’m Shubham, a student at Dwarkadas J. Sanghvi College of
-        Enginerring. I’m passionate about <b>Backend, Cloud </b> and{" "}
-        <b>DevOps</b>. Along with my Undergrad studies, I work as a <b> Backend Developer</b>  at Exampil Pvt. Ltd. an Edtech startup based in Mumbai, India.
+        Enginerring. I’m passionate about <b>Backend, Cloud, Machine Learning</b> and{" "}
+        <b>Deep Learning </b>. Along with my Undergrad studies, I work as a <b> Backend Developer</b> at Exampil Pvt. Ltd. an Edtech startup based in Mumbai, India.
       </p>
       <ul>
         <a href="sv773460@gmail.com">
