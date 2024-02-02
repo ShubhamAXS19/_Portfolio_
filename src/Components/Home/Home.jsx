@@ -3,7 +3,7 @@ import { FiMail } from "react-icons/fi";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 import { HiOutlineDocumentText } from "react-icons/hi";
-import Wallpaper from '../../assets/img/wallpaper.jpg'
+import Wallpaper from '../../assets/img/portfolio.jpg'
 import "./Home.css";
 
 const Home = () => {
