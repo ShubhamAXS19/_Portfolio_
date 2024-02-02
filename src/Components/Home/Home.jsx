@@ -14,7 +14,7 @@ const Home = () => {
       <p>
         Hi 👋, I’m Shubham, a student at Dwarkadas J. Sanghvi College of
         Enginerring. I’m passionate about <b>Backend, Cloud, Machine Learning</b> and{" "}
-        <b>Deep Learning </b>. Along with my Undergrad studies, I work as a <b> Backend Developer</b> at Exampil Pvt. Ltd. an Edtech startup based in Mumbai, India.
+        <b>Deep Learning </b>. Along with my Undergrad studies, I work as a <b> Research Intern</b> at IIT BHU and SimPPL.
       </p>
       <ul>
         <a href="sv773460@gmail.com">
