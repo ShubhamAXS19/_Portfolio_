@@ -12,9 +12,9 @@ const Home = () => {
       <img src={Wallpaper} alt="" />
       <h2>Shubham Vishwakarma</h2>
       <p>
-        Hi 👋, I’m Shubham, a student at Dwarkadas J. Sanghvi College of
-        Enginerring. I’m passionate about <b>Backend, Cloud, Machine Learning</b> and{" "}
-        <b>Deep Learning </b>. Along with my Undergrad studies, I work as a <b> Research Intern</b> at IIT BHU and SimPPL.
+        Hi 👋, I’m Shubham, a graduate from at Dwarkadas J. Sanghvi College of
+        Enginerring with a major in Electronics Engineering and Minor in <b>Artificical Intelligence and Machine Learning. </b>I’m passionate about <b>Backend, Cloud, Machine Learning</b> and{" "}
+        <b>Deep Learning </b>.My core skills are Web and Software developement, Machine Learning and Data Analysis. Along with my Undergrad studies, I work as a <b> Research Intern</b> at IIT Patna and IIIT Naya Raipur.
       </p>
       <ul>
         <a href="sv773460@gmail.com">
@@ -32,7 +32,7 @@ const Home = () => {
             <BsGithub />
           </li>
         </a>
-        <a href="https://docs.google.com/document/d/1uRgYagYaVLWQD7jXA9Tp65dhIMGdxccj/edit?usp=sharing&ouid=103021001565301164077&rtpof=true&sd=true">
+        <a href="https://prairie-element-2f7.notion.site/Shubham-s-Portfolio-333c8d1f36004fea9ce7e31af9f1db53">
           <li>
             <HiOutlineDocumentText />
           </li>
