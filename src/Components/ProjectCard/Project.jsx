@@ -2,6 +2,7 @@ import React from 'react'
 import Social from '../../assets/img/social-app-ss.png'
 import Dashboard from '../../assets/img/react-dashboard.png'
 import GymApp from '../../assets/img/gym_app.png'
+import Inventory from '../../assets/img/inventory.png'
 import './Project.css'
 
 export const Project1 = () => {
@@ -39,6 +40,18 @@ export const Project3 = () => {
                 <img src={GymApp} alt="" />
                 <h2>Gym App</h2>
                 <h3>Desc</h3>
+
+            </div>
+        </a>
+    )
+}
+export const Project4 = () => {
+    return (
+        <a href='https://inventory-mgmt-fe-7hee-jn31vi7o3-shubhamaxs19s-projects.vercel.app/products'>
+            <div className='project-card'>
+                <img src={Inventory} alt="" />
+                <h2>Inventory Management</h2>
+                <h3>NextJs + Redux + Nodejs + Prisma + Postgres + AWS</h3>
 
             </div>
         </a>

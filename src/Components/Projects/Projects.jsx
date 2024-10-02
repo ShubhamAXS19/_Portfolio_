@@ -1,6 +1,6 @@
 import React from "react";
 import './Projects.css'
-import { Project1, Project2, Project3 } from "../ProjectCard/Project";
+import { Project1, Project2, Project3, Project4 } from "../ProjectCard/Project";
 
 
 
@@ -10,6 +10,7 @@ const Projects = () => {
       <Project1 />
       <Project2 />
       <Project3 />
+      <Project4 />
     </div>
   )
 };
