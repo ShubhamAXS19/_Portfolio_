@@ -2,7 +2,7 @@ import React from 'react'
 import Social from '../../assets/img/social-app-ss.png'
 import Dashboard from '../../assets/img/react-dashboard.png'
 import GymApp from '../../assets/img/gym_app.png'
-import Inventory from '../../assets/img/inventory.png'
+import Inventory from '../../assets/img/Inventory.png'
 import './Project.css'
 
 export const Project1 = () => {
