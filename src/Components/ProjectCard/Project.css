@@ -1,61 +1,111 @@
-.project-card{
-    margin-top: 8vh;
-    padding: 2vh 2vw;
-    border-radius: 1rem;
-    background: rgb(65, 66, 68);
-    width: 40vw;
-    transition: ease-in 0.3s;
+.project-card {
+  margin-top: 8vh;
+  padding: 2vh 2vw;
+  border-radius: 1rem;
+  background: rgb(65, 66, 68);
+  width: 40vw;
+  transition: ease-in 0.3s;
 }
 
-.project-card:hover{
+.project-card:hover {
+  transform: translateY(-20px);
+  background: black;
+  cursor: pointer;
+}
+
+.project-card img {
+  padding-top: 2vh;
+  height: 100%;
+  width: 100%;
+}
+
+.project-card h2,
+h3,
+p {
+  color: rgb(155, 156, 157);
+}
+
+/* Project.css */
+
+.project-card img {
+  width: 100%;
+  height: auto;
+}
+
+.project-card {
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: left;
+  padding: 20px;
+}
+
+.project-card h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.project-card h3 {
+  font-size: 16px;
+  color: #777;
+}
+
+.swiper-slide-image-container {
+  width: 25vw;
+  height: 15vw;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-slide-image-container {
+    width: 100%;
+    height: 25vw;
+  }
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.object-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1000px) {
+  .project-card {
+    margin-top: 4vh;
+    padding: 1vh 2vw;
+    border-radius: 1rem;
+    background: rgb(65, 66, 68);
+    width: 50vw;
+    transition: ease-in 0.3s;
+  }
+
+  .project-card:hover {
     transform: translateY(-20px);
     background: black;
     cursor: pointer;
-}
+  }
 
-.project-card img{
-    padding-top: 2vh;
-    height: 100%;
+  .project-card img {
+    /* padding-top: 2vh; */
+    height: 70%;
     width: 100%;
-}
+  }
 
-   
-.project-card h2,h3,p{
-    color:   rgb(155, 156, 157);;
-}
+  .project-card h2 {
+    color: rgb(155, 156, 157);
+    font-size: 80%;
+  }
 
-
-@media screen and (max-width:1000px){
-    .project-card{
-        margin-top: 4vh;
-        padding: 1vh 2vw;
-        border-radius: 1rem;
-        background: rgb(65, 66, 68);
-        width: 50vw;
-        transition: ease-in 0.3s;
-    }
-    
-    .project-card:hover{
-        transform: translateY(-20px);
-        background: black;
-        cursor: pointer;
-    }
-    
-    .project-card img{
-        /* padding-top: 2vh; */
-        height: 70%;
-        width: 100%;
-    }
-    
-       
-    .project-card h2{
-        color:   rgb(155, 156, 157);
-        font-size: 80%;
-    }
-    
-    .project-card h3{
-        color:   rgb(155, 156, 157);
-        font-size: 60%;
-
-    }
+  .project-card h3 {
+    color: rgb(155, 156, 157);
+    font-size: 60%;
+  }
 }
